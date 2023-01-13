@@ -40,12 +40,14 @@ $routes->get('/home', 'Pages::index');
 $routes->get('/about', 'Pages::about');
 $routes->get('/contact', 'Pages::contact');
 $routes->get('/playlist', 'playlist::index');
+$routes->get('/user', 'user::index');
 $routes->delete('/playlist/(:num)', 'playlist::hapus/$1');
 $routes->get('/lagu/(:any)', 'lagu::index/$1');
 $routes->get('/playlist/tambah', 'playlist::tambah');
 $routes->post('/playlist/simpan', 'playlist::simpan');
 $routes->get('/playlist/ubah/(:num)', 'playlist::ubah/$1');
 $routes->post('/playlist/ubah(:num)', 'playlist::ubah/$1');
+$routes->post('/user', 'user::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

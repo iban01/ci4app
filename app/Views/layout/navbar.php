@@ -15,6 +15,7 @@
       <a class="nav-item nav-link" href="/about">About</a>
       <a class="nav-item nav-link" href="/contact">Contact</a>
       <a class="nav-item nav-link" href="/playlist">Playlist</a>
+      <a class="nav-item nav-link" href="/user">User</a>
     </div>
   </div>
   </div>
